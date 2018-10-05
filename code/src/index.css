@@ -1,0 +1,18 @@
+@font-face {
+  font-family: BigJohn;
+  src: url(/fonts/BIGJOHN.otf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightyellow;
+}
+
+h1 {
+  font-family: BigJohn;
+}
+
+h2 {
+  font-family: BigJohn;
+}
