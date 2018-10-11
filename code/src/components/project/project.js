@@ -1,4 +1,5 @@
 import React from "react"
+import "./project.css"
 
 export default class Project extends React.Component {
 
@@ -8,11 +9,11 @@ export default class Project extends React.Component {
     return (
 
       <div className="project-content">
-        <div className="projects-content-title">
-          <h2>{this.props.title}</h2>
+        <div className="project-content-title">
+          <p>{this.props.title}</p>
         </div>
-        <div className="projects-content-img">
-          <img src={this.props.image} alt="project image"/>
+        <div className="project-content-img">
+          <img src={this.props.image} alt="project"/>
         </div>
       </div>
 

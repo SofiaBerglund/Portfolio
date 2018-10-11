@@ -1,5 +1,5 @@
 import React from "react"
-import Project from "../components/project"
+import Project from "../components/project/project"
 import Footer from "../components/footer"
 
 const projectsJson = require("../tech-projects.json")
@@ -17,14 +17,13 @@ class LandingPage extends React.Component {
             <div className="image-container">
               <img src="" alt="portrait"/>
               <div className="contact-info">
-                <p>
-                  {/*contactinfo from component*/}
-                </p>
+                <p>email</p>
+                <p>number</p>
               </div>
             </div>
             <header>
               <p>Sofia Berglund</p>
-              <h1>PORTFOLIO</h1>
+              <h1>FRONTEND DEVELOPER</h1>
               <p>Lorem ipsum...</p>
               <button>SEE MY GITHUB</button>
             </header>
@@ -32,11 +31,11 @@ class LandingPage extends React.Component {
 
           <div className="tech-summary">
             <h1>TECH</h1>
-            <p>Lorem ipsum...</p>
+            <p>480 coding hours &bull; 50+ individual tasks &bull; HTML5, CSS, SASS, Flexbox, Javascript, ES6, JSX, React, Node.js,
+            Mongo DB, API:s &bull; 6 sprints with demos together with companies like Volumental, Bonnier, Comprend @ Technigo &bull; Exploring Machine learning</p>
           </div>
 
           <div className="projects-container">
-            {/*project items from component, using map?*/}
             {projectsJson.projects.map((item) => {
               return <Project key={item.id} title={item.title} image={item.image} link={item.link}/>
             })}
@@ -78,10 +77,12 @@ class LandingPage extends React.Component {
             </div>
           </div>
 
+          <button>SEE MY LINKEDIN</button>
+
         </div>
 
         <footer>
-          {/*from component*/}
+          <Footer />
         </footer>
 
       </div>

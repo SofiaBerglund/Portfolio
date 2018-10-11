@@ -8,7 +8,9 @@ export default class Footer extends React.Component {
     return (
 
       <div className="footer">
-        {/* import contactinfo from component*/}
+        <p>SOFIA BERGLUND</p>
+        <p>email</p>
+        <p>number</p>
       </div>
 
     )

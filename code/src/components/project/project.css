@@ -1,0 +1,27 @@
+.project-content {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+
+}
+
+.project-content:nth-child(odd) {
+  margin-right: 20px;
+}
+
+.project-content:nth-child(even) {
+  margin-left: 20px;
+}
+
+.project-content-title {
+  /* width: 100%; */
+}
+
+.project-content-img {
+  /* height: auto; */
+}
+
+.project-content-img img {
+  width: 100%;
+}
