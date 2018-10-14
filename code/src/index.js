@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import LandingPage from "./pages/landing-page"
+import App from "./app"
 import "./index.css"
 
-ReactDOM.render(<LandingPage />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"))

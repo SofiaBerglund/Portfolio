@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import Project from "../components/project/project"
 import Footer from "../components/footer"
 
@@ -15,16 +16,16 @@ class LandingPage extends React.Component {
 
           <div className="intro-container">
             <div className="image-container">
-              <img src="" alt="portrait"/>
+              <img src="images/person-placeholder.png" alt="portrait"/>
               <div className="contact-info">
                 <p>email</p>
                 <p>number</p>
               </div>
             </div>
             <header>
-              <p>Sofia Berglund</p>
+              <p className="name-header">Sofia Berglund</p>
               <h1>FRONTEND DEVELOPER</h1>
-              <p>Lorem ipsum...</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               <button>SEE MY GITHUB</button>
             </header>
           </div>

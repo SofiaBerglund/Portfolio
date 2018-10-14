@@ -2,19 +2,25 @@
 	"projects": [{
 			"id": 1,
 			"title": "Radio Player",
-			"image": "images/puppy.jpg",
+			"image": "images/img-placeholder.png",
 			"link": ""
 		},
 		{
 			"id": 2,
 			"title": "Clock",
-			"image": "images/puppy.jpg",
+			"image": "images/img-placeholder.png",
 			"link": ""
 		},
 		{
 			"id": 3,
 			"title": "Product Page",
-			"image": "images/puppy.jpg",
+			"image": "images/img-placeholder.png",
+			"link": ""
+		},
+		{
+			"id": 3,
+			"title": "Weather Page",
+			"image": "images/img-placeholder.png",
 			"link": ""
 		}
 	]
