@@ -10,8 +10,8 @@ class App extends React.Component {
     return (
       <Router>
         <div>
-          <Route path="/" exact="true" component={LandingPage} />
-          <Route path="/projects:id" exact="true" component={ProjectPage} />
+          <Route path="/" exact component={LandingPage} />
+          <Route path="/project/:id" component={ProjectPage} />
         </div>
       </Router>
     )

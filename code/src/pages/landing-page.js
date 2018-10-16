@@ -38,7 +38,7 @@ class LandingPage extends React.Component {
 
           <div className="projects-container">
             {projectsJson.projects.map((item) => {
-              return <Project key={item.id} title={item.title} image={item.image} link={item.link}/>
+              return <Project key={item.id} id={item.id} title={item.title} image={item.image} link={item.link}/>
             })}
           </div>
 
