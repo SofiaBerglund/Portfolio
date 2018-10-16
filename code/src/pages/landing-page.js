@@ -18,14 +18,14 @@ class LandingPage extends React.Component {
             <div className="image-container">
               <img src="images/person-placeholder.png" alt="portrait"/>
               <div className="contact-info">
-                <p>email</p>
-                <p>number</p>
+                <p>berglund.sofia@gmail.com</p>
+                <p>073-650 84 80</p>
               </div>
             </div>
             <header>
               <p className="name-header">Sofia Berglund</p>
               <h1>FRONTEND DEVELOPER</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Hi! I am a junior frontend developer with previous experience in accounting and biology. I love solving problems and writing beautiful code. I am also a curious and creative perfectionist and a team player who love to share knowledge and learn from others.</p>
               <button>SEE MY GITHUB</button>
             </header>
           </div>
@@ -33,7 +33,7 @@ class LandingPage extends React.Component {
           <div className="tech-summary">
             <h1>TECH</h1>
             <p>480 coding hours &bull; 50+ individual tasks &bull; HTML5, CSS, SASS, Flexbox, Javascript, ES6, JSX, React, Node.js,
-            Mongo DB, API:s &bull; 6 sprints with demos together with companies like Volumental, Bonnier, Comprend @ Technigo &bull; Exploring Machine learning</p>
+          , API:s &bull; 6 sprints with demos together with companies like Volumental, Bonnier, Comprend @ Technigo &bull; Exploring Machine learning</p>
           </div>
 
           <div className="projects-container">
@@ -45,18 +45,31 @@ class LandingPage extends React.Component {
           <div className="skills-container">
             <h1>SKILLS</h1>
             <div className="skills-content">
-              <h2>CODE</h2>
-              <ul>
-                <li>HTML5</li>
-              </ul>
-              <h2>TOOLBOX</h2>
-              <ul>
-                <li>Atom</li>
-              </ul>
-              <h2>MORE</h2>
-              <ul>
-                <li>Finance</li>
-              </ul>
+              <div>
+                <h2>CODE</h2>
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS</li>
+                  <li>JavaScript ES6</li>
+                  <li>React</li>
+                  <li>SASS</li>
+                  <li>GitHub</li>
+                  <li>Node.js</li>
+                </ul>
+              </div>
+              <div>
+                <h2>TOOLBOX</h2>
+                <ul>
+                  <li>Atom</li>
+                  <li>Postman</li>
+                </ul>
+              </div>
+              <div>
+                <h2>MORE</h2>
+                <ul>
+                  <li>Finance</li>
+                </ul>
+              </div>
             </div>
           </div>
 
@@ -65,15 +78,19 @@ class LandingPage extends React.Component {
             <div className="studies-content">
               <h2>FRONTEND DEVELOPER</h2>
               <p>
-              Lorem ipsum...
+              Technigo. Full-time 12 week boot camp / intensive program. Covering everything from the
+               basics of programming to how to structure and build bigger web projects. Focus on
+               JavaScript. Total 480 coding hours, 50+ individual tasks (in HTML5, CSS, SASS,
+                 JavaScript, JSX, React, Node.js) and 6 sprints with demos together with companies
+                 like Volumental, Bonnier, Comprend and Svenska Spel.<br></br> Stockholm Sept - Nov 2018
               </p>
               <h2>ACCOUNTING CONSULTANT</h2>
               <p>
-              Lorem ipsum...
+              Frans Schartaus Handelsinstitut. Higher Vocational Education.<br></br>Stockholm 2011 - 2013
               </p>
               <h2>BIOLOGY</h2>
               <p>
-              Lorem ipsum...
+              Stockholm University. Master’s biology program specializing in plant systematics.<br></br>Stockholm 2005 - 2011
               </p>
             </div>
           </div>

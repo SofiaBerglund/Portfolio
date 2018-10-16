@@ -3,7 +3,6 @@
   flex-direction: column;
   width: calc(50% - 20px);
   margin-bottom: 20px;
-
 }
 
 .project-content:nth-child(odd) {
@@ -22,6 +21,25 @@
   /* height: auto; */
 }
 
+.project-content a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 .project-content-img img {
   width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .project-content {
+    width: 100%;
+  }
+
+  .project-content:nth-child(odd) {
+    margin-right: 0;
+  }
+
+  .project-content:nth-child(even) {
+    margin-left: 0;
+  }
 }
