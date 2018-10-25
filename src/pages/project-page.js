@@ -15,8 +15,13 @@ class ProjectPage extends React.Component {
 
     return (
       <div>
-        {projectData.title}
-      </div>
+        <div>
+          {projectData.title}
+        </div>
+        <div className="project-content-img">
+          <img src={this.props.image} alt="project"/>
+        </div>
+      </div>  
     )
   }
 

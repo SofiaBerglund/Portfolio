@@ -1,27 +1,27 @@
 {
 	"projects": [{
 			"id": 1,
-			"title": "Radio Player",
-			"image": "images/img-placeholder.png",
-			"link": ""
+			"title": "Career page with partner company Comprend @Technigo. Built in React, using their internal career API.",
+			"image": "images/career-page.png",
+			"link": "https://github.com/SofiaBerglund/Career-page-for-Comprend"
 		},
 		{
 			"id": 2,
-			"title": "Clock",
-			"image": "images/img-placeholder.png",
-			"link": ""
+			"title": "VAT calculator built in React.",
+			"image": "images/VAT.png",
+			"link": "https://github.com/SofiaBerglund/VAT-Calculator"
 		},
 		{
 			"id": 3,
-			"title": "Product Page",
-			"image": "images/img-placeholder.png",
-			"link": ""
+			"title": "A sign up form created in HTML and CSS with the aim to resemble the sign up form for Karma app.",
+			"image": "images/karma.png",
+			"link": "https://github.com/SofiaBerglund/Sign-up-form"
 		},
 		{
 			"id": 4,
-			"title": "Weather Page",
-			"image": "images/img-placeholder.png",
-			"link": ""
+			"title": "Clock built in React",
+			"image": "images/time.png",
+			"link": "https://github.com/SofiaBerglund/clock"
 		}
 	]
 }

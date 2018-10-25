@@ -10,14 +10,14 @@ export default class Project extends React.Component {
     return (
 
       <div className="project-content">
-        <Link to={`/project/${this.props.id}`}>
+        <a href={this.props.link}>
         <div className="project-content-title">
           <p>{this.props.title}</p>
         </div>
         <div className="project-content-img">
           <img src={this.props.image} alt="project"/>
         </div>
-        </Link>
+        </a>
       </div>
 
     )

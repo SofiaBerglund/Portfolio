@@ -16,7 +16,7 @@ class LandingPage extends React.Component {
 
           <div className="intro-container">
             <div className="image-container">
-              <img src="images/person-placeholder.png" alt="portrait"/>
+              <img src="images/sofia-berglund.png" alt="portrait"/>
               <div className="contact-info">
                 <p>berglund.sofia@gmail.com</p>
                 <p>073-650 84 80</p>
@@ -26,14 +26,14 @@ class LandingPage extends React.Component {
               <p className="name-header">Sofia Berglund</p>
               <h1>FRONTEND DEVELOPER</h1>
               <p>Hi! I am a junior frontend developer with previous experience in accounting and biology. I love solving problems and writing beautiful code. I am a curious and creative perfectionist and a team player who love to share knowledge and to learn from others.</p>
-              <button>SEE MY GITHUB</button>
+              <button><a href="https://github.com/SofiaBerglund">SEE MY GITHUB</a></button>
             </header>
           </div>
 
           <div className="tech-summary">
             <h1>TECH</h1>
             <p>480 coding hours &bull; 50+ individual tasks &bull; HTML5, CSS, SASS, Flexbox, Javascript, ES6, JSX, React, Node.js,
-          , API:s &bull; 6 sprints with demos together with companies like Volumental, Bonnier, Comprend and Svenska Spel @ Technigo</p>
+            API:s &bull; 6 sprints with demos together with companies like Volumental, Bonnier, Comprend and Svenska Spel @ Technigo</p>
           </div>
 
           <div className="projects-container">
@@ -62,6 +62,10 @@ class LandingPage extends React.Component {
                 <ul>
                   <li>Atom</li>
                   <li>Postman</li>
+                  <li>Microsoft Dynamics NAV</li>
+                  <li>Palette</li>
+                  <li>Centsoft</li>
+                  <li>Visma Business</li>
                 </ul>
               </div>
               <div>
@@ -97,7 +101,7 @@ class LandingPage extends React.Component {
             </div>
           </div>
 
-          <button>SEE MY LINKEDIN</button>
+          <button><a href="https://www.linkedin.com/in/sofia-berglund-b04344a7/">SEE MY LINKEDIN</a></button>
 
         </div>
 

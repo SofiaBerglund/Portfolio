@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   width: calc(50% - 20px);
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  padding: 10px;
+  border: 1px solid #f7cfd9;
 }
 
 .project-content:nth-child(odd) {
@@ -14,11 +16,14 @@
 }
 
 .project-content-title {
-  /* width: 100%; */
+  min-height: 50px;
 }
 
 .project-content-img {
-  /* height: auto; */
+    height: 250px;
+    width: auto;
+    overflow: hidden;
+    position: relative;
 }
 
 .project-content a {
@@ -27,7 +32,11 @@
 }
 
 .project-content-img img {
-  width: 100%;
+  position: absolute;
+  margin: auto;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
 }
 
 @media (max-width: 1000px) {
