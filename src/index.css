@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-  font-family: BigJohn;
+  font-family: BigJohn, Futura, Arial;
 }
 
 ul {
@@ -63,6 +63,7 @@ button {
 a {
   text-decoration: inherit;
   color: inherit;
+  font-size: 16px;
 }
 
 .landing-page-container {
@@ -98,6 +99,7 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .tech-summary p {
@@ -119,9 +121,6 @@ a {
 }
 
 @media (max-width: 1000px) {
-  .landing-page-container {
-    margin: 50px 5%;
-  }
   .intro-container {
     flex-direction: column;
   }

@@ -1,7 +1,7 @@
 {
 	"projects": [{
 			"id": 1,
-			"title": "Career page with partner company Comprend @Technigo. Built in React, using their internal career API.",
+			"title": "Career page with partner company Comprend @Technigo. Team project built in React, using their internal career API.",
 			"image": "images/career-page.png",
 			"link": "https://github.com/SofiaBerglund/Career-page-for-Comprend"
 		},

@@ -32,7 +32,7 @@ class LandingPage extends React.Component {
 
           <div className="tech-summary">
             <h1>TECH</h1>
-            <p>480 coding hours &bull; 50+ individual tasks &bull; HTML5, CSS, SASS, Flexbox, Javascript, ES6, JSX, React, Node.js,
+            <p>480 coding hours &bull; 50+ individual tasks &bull; HTML5, CSS, SASS, Javascript, ES6, JSX, React, Node.js,
             API:s &bull; 6 sprints with demos together with companies like Volumental, Bonnier, Comprend and Svenska Spel @ Technigo</p>
           </div>
 
