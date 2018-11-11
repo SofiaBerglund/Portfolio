@@ -71,6 +71,7 @@ class LandingPage extends React.Component {
                   <li>SASS</li>
                   <li>GitHub</li>
                   <li>Node.js</li>
+                  <li>MongoDB</li>
                 </ul>
               </div>
               <div>
@@ -107,17 +108,21 @@ class LandingPage extends React.Component {
                 Total 480 coding hours, 50+ individual tasks (in HTML5, CSS,
                 SASS, JavaScript, JSX, React, Node.js) and 6 sprints with demos
                 together with companies like Volumental, Bonnier, Comprend and
-                Svenska Spel.<br /> Stockholm Sept - Nov 2018
+                Svenska Spel.
+                <br /> Stockholm Sept - Nov 2018
               </p>
               <h2>ACCOUNTING CONSULTANT</h2>
               <p>
                 Frans Schartaus Handelsinstitut. Higher Vocational Education.
-                <br />Stockholm 2011 - 2013
+                <br />
+                Stockholm 2011 - 2013
               </p>
               <h2>BIOLOGY</h2>
               <p>
                 Stockholm University. Master’s biology program specializing in
-                plant systematics.<br />Stockholm 2005 - 2011
+                plant systematics.
+                <br />
+                Stockholm 2005 - 2011
               </p>
             </div>
           </div>

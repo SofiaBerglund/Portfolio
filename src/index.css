@@ -23,7 +23,7 @@ header {
 }
 
 footer {
-  background-color: #F6A623;
+  background-color: #f6a623;
   text-align: center;
   color: white;
   height: 100px;
@@ -55,7 +55,7 @@ button {
   border: none;
   border-radius: 50px;
   font-family: BigJohn, Futura, Arial;
-  color: #F6A623;
+  color: #f6a623;
   background-color: #feeed7;
   cursor: pointer;
 }
