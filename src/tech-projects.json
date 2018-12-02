@@ -1,27 +1,28 @@
 {
-	"projects": [{
-			"id": 1,
-			"title": "Career page with partner company Comprend @Technigo. Team project built in React, using their internal career API.",
-			"image": "images/career-page.png",
-			"link": "https://github.com/SofiaBerglund/Career-page-for-Comprend"
-		},
-		{
-			"id": 2,
-			"title": "VAT calculator built in React.",
-			"image": "images/VAT.png",
-			"link": "https://github.com/SofiaBerglund/VAT-Calculator"
-		},
-		{
-			"id": 3,
-			"title": "A sign up form created in HTML and CSS with the aim to resemble the sign up form for Karma app.",
-			"image": "images/karma.png",
-			"link": "https://github.com/SofiaBerglund/Sign-up-form"
-		},
-		{
-			"id": 4,
-			"title": "Clock built in React",
-			"image": "images/time.png",
-			"link": "https://github.com/SofiaBerglund/clock"
-		}
-	]
+  "projects": [
+    {
+      "id": 1,
+      "title": "Dog-matching app for final project at Technigo. Built in React and Node.js with MongoDB as database",
+      "image": "images/matching-paws.png",
+      "link": "https://github.com/SofiaBerglund/matching-paws"
+    },
+    {
+      "id": 2,
+      "title": "Career page with partner company Comprend @Technigo. Team project built in React, using their internal career API.",
+      "image": "images/career-page.png",
+      "link": "https://github.com/SofiaBerglund/Career-page-for-Comprend"
+    },
+    {
+      "id": 3,
+      "title": "VAT calculator built in React.",
+      "image": "images/VAT.png",
+      "link": "https://github.com/SofiaBerglund/VAT-Calculator"
+    },
+    {
+      "id": 4,
+      "title": "A sign up form created in HTML and CSS with the aim to resemble the sign up form for Karma app.",
+      "image": "images/karma.png",
+      "link": "https://github.com/SofiaBerglund/Sign-up-form"
+    }
+  ]
 }
